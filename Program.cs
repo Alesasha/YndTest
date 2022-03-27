@@ -127,7 +127,7 @@ namespace YndTest
             ulong sqres;
 
             var cores = Environment.ProcessorCount;
-            Console.WriteLine($"Cores={cores}");
+            Console.WriteLine($"Cores={cores} total ");
 
             var first20PNs = new ulong[] { 1, 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101 };
             var first11Sis = new int[] { 0, 1, 2, 8, 48, 480, 5760, 92160, 1658880, 36495360, 1021870080};
